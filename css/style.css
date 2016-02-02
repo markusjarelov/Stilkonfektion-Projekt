@@ -49,8 +49,8 @@ a:hover {
   margin-left: 20px;
 }
 .masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 1em;
+  padding-left: 1em;
   font-size: 16px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
@@ -116,7 +116,8 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 1.5em;
+    
 }
 
 
