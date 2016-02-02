@@ -55,17 +55,6 @@ a:hover {
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
-
-.masthead-nav > li > a:hover{
-    -webkit-transition: 0.3s 0.3s cubic-bezier(0.125, 0.75, 0.415, 1);
-      transition: 0.3s 0.3s cubic-bezier(0.125, 0.75, 0.415, 1);
-      -webkit-transform-origin: 0% 0%;
-      -ms-transform-origin: 0% 0%;
-      transform-origin: 0% 0%;
-      -webkit-transform: scaleX(1) scaleY(0) translateZ(0);
-      -ms-transform: scaleX(1) scaleY(0) translateZ(0)
-}
-
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
