@@ -11,11 +11,13 @@ a:hover {
   color: #fff;
     
 }
+/*låda  */
 .nav  {
     border-style: solid;
     border-color: #555;
     background-color:#555;
     width: 40em;
+    height: 4em;
     margin: 0 auto;
     
 }
