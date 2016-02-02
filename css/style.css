@@ -9,8 +9,16 @@ a,
 a:focus,
 a:hover {
   color: #fff;
+    
 }
-
+.nav  {
+    border-style: solid;
+    border-color: hotpink;
+    background-color: lime;
+    margin-left: 40em;
+    margin-right: 40em;
+    
+}
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
