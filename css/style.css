@@ -13,10 +13,10 @@ a:hover {
 }
 .nav  {
     border-style: solid;
-    border-color: hotpink;
-    background-color: lime;
-    margin-left: 35%;
-    margin-right: 35%;
+    border-color: #555;
+    background-color:#555;
+    width: 40em;
+    margin: 0 auto;
     
 }
 /* Custom default button */
@@ -65,7 +65,7 @@ a:hover {
   font-size: 20px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
-  color:gray;
+  color:lightgray;
   border-bottom: 2px solid transparent;
     
 }
@@ -73,7 +73,7 @@ a:hover {
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-    
+    color:white;
     
   
   
@@ -81,7 +81,7 @@ a:hover {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: gray;
+  color: white;
     
   
 }
