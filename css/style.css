@@ -28,6 +28,7 @@ a:hover {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
+    border-radius: 0;
   
 }
 
@@ -36,7 +37,8 @@ a:hover {
  */
 
 .cover {
-  padding-top: 30em;
+  margin-top: 10em;
+    
     
 }
 .cover .btn-lg {
@@ -171,7 +173,7 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
+  
   top: 0;
   right: 0;
   left: 0;
