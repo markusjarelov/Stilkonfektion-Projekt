@@ -37,7 +37,7 @@ a:hover {
  */
 
 .cover {
-  margin-top: 10em;
+  margin-top: 14em;
     
     
 }
@@ -151,8 +151,9 @@ body {
 
 
 
-
-
+h1{
+    font-size: 100px;
+}
 
 
 
