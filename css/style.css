@@ -17,22 +17,14 @@ video#bgvid {
     background-size: cover; 
 }
 
-.fadeInBlock {
-    opacity:0;
-}
+
 
 /*
  * Globals
  */
 
-.marken{
-    background-color: black;
-    position: relative;
-    left: 0;
-    width: 100%;
-    padding: 1em;
-    margin: 0;
-}
+
+
 
 /* Links */
 a,
@@ -128,10 +120,7 @@ a:hover{
 .masthead-nav > .active >a {
     position: static;
 }
-=======
 
-
->>>>>>> origin/master
 /* change meny position */
 @media (min-width: 768px) {
   .masthead-brand {
@@ -220,6 +209,7 @@ h3{
     width: 100%;
     padding: 1em;
     margin: 0;
+    
 }
 
 
