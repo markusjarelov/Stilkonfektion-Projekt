@@ -115,6 +115,9 @@ a:hover {
     
   
 }
+.masthead-nav > .active >a {
+    position: static;
+}
 /* change meny position */
 @media (min-width: 768px) {
   .masthead-brand {
