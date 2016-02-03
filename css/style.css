@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Pragati+Narrow);
 
 video#bgvid { 
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -17,7 +17,9 @@ video#bgvid {
     background-size: cover; 
 }
 
-
+.fadeInBlock {
+    opacity:0;
+}
 
 /*
  * Globals
@@ -135,6 +137,7 @@ body {
     background-color: lightgrey;
     
     overflow-x:hidden;
+    
 
   
    
