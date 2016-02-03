@@ -25,10 +25,19 @@ video#bgvid {
  * Globals
  */
 
+.marken{
+    background-color: black;
+    position: relative;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    margin: 0;
+}
+
 /* Links */
 a,
 a:focus,
-a:hover {
+a:hover{
   color: #fff;
     
 }
@@ -112,11 +121,11 @@ a:hover {
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
+.masthead-nav > .active > a:focus{
   color: white;
-    
-  
 }
+
+
 /* change meny position */
 @media (min-width: 768px) {
   .masthead-brand {
@@ -166,11 +175,7 @@ body {
   display: table-cell;
   vertical-align: top;
 }
-.cover-container {
-  margin-right: 10em;
-  margin-left: 10em;
-    
-}
+
 
 /* Padding for spacing */
 .inner {
@@ -189,7 +194,25 @@ h1{
     font-size: 100px;
 }
 
+h2{
+    font-size: 40px;
+}
 
+h3{
+    width: 8em;
+    margin: 1em 0em;
+    position: relative;
+    display: inline-block;
+}
+
+.marken{
+    background-color: black;
+    position: relative;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    margin: 0;
+}
 
 
 
