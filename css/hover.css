@@ -4887,7 +4887,7 @@
 /* Slide In / Slide Out */
 .hvr-slide-in-out{
     display: inline-block;
-    position: relative;
+    position: absolute;
     padding-bottom: 3px;
 }
 .hvr-slide-in-out:before {
