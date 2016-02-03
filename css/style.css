@@ -205,6 +205,7 @@ h2{
 }
 
 h3{
+    padding: 0.1em;
     width: 8em;
     margin: 1em 0em;
     position: relative;
@@ -215,6 +216,7 @@ h3{
     background-color: black;
     position: relative;
     left: 0;
+    height: 40em;
     width: 100%;
     padding: 1em;
     margin: 0;
