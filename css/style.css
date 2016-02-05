@@ -28,21 +28,21 @@ video#bgvid {
 }
 
 /* Links */
-a,
-a:focus,
-a:hover{
-  color: black;
+a{
+	font-family: 'Pragati Narrow', sans-serif;
+}
     
 }
 /*logga */
-.image {
-    text-align: center;
-    margin-top: 15em;
-    
+.logotype{
+	position: relative;
+	width: 50%;
+    margin-top: 10em;
+	padding: 10em;
 }
 
 /*låda  */
-.nav  {
+.nav{
     border-style: solid;
     border-color: #333;
     background-color: #333;
@@ -68,14 +68,7 @@ a:hover{
 
 .cover {
   margin-top: 14em;
-    
-    
 }
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
 
 /*
  * Header
@@ -128,11 +121,11 @@ a:hover{
     float: center;
   }
   .masthead-nav {
-    float: center;
 	overflow: hidden;
-	width: 50em;
+	width: 100%;
 	top: 0;
-	position: static;
+	position: fixed;
+	z-index: 2;
   }
 }
 
@@ -147,11 +140,10 @@ body {
     overflow-x: hidden;
 }
 
-body {
-  
+body { 
   text-align: center;
   text-shadow: 0 0px 0px rgba(0,0,0,.5);
-    font-family: 'Pragati Narrow', sans-serif;
+  font-family: 'Pragati Narrow', sans-serif;
     
 }
 
@@ -174,16 +166,12 @@ body {
 
 
 /* Padding for spacing */
-.inner {
 
-  margin-top: 4em;
-  padding: 0.5em;
-
-}
 .lead {
     margin-top: -10%;
     font-size: 30px;
     color: #BB8600;
+	position: relative;
 }
 
 
@@ -233,9 +221,7 @@ h3{
     left: 0;
     height: 60em;
     width: 100%;
-    padding: 1em;
-    
-    
+    padding: 1em;    
 }
 
 .marken > h2{
@@ -243,10 +229,7 @@ h3{
     margin: 0.3em auto;
     border-bottom: solid 3px #BB8600;
     text-align: center;
-}
-
-.marken > p{
-    text-align: left;
+	padding-bottom: 0.2em;
 }
 
 .kontakt{
@@ -281,7 +264,7 @@ h3{
 }
 
 .info:hover{
-    color: white;
+    color: #333;
     cursor: default;
 	transition: color .3s ease;
 }
