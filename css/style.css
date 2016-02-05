@@ -229,12 +229,18 @@ h3{
     width: 100%;
     padding: 1em;
     
+    
 }
 
 .marken > h2{
     width: 8em;
     margin: 0.3em auto;
     border-bottom: solid 3px #BB8600;
+    text-align: center;
+}
+
+.marken > p{
+    text-align: left;
 }
 
 .kontakt{
@@ -377,6 +383,9 @@ a{
       -ms-box-sizing: border-box;
           box-sizing: border-box;
 }
+.blur {
+    
+}
 .blur img {
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -384,13 +393,14 @@ a{
       -ms-transition: all 1s ease;
           transition: all 1s ease;
     display: inline-block;
-    
+
  
 }
 
 .blur img:hover {
   -webkit-filter: blur(3px);
     z-index: -30;
+    
 }
 
 .linktext{
@@ -400,3 +410,4 @@ margin-bottom: -2em;
 a:hover {
     text-decoration: none;
 }
+
