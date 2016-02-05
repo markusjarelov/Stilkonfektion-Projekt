@@ -31,7 +31,7 @@ video#bgvid {
 a,
 a:focus,
 a:hover{
-  color: #fff;
+  color: black;
     
 }
 /*logga */
@@ -44,13 +44,13 @@ a:hover{
 /*låda  */
 .nav  {
     border-style: solid;
-    border-color: #555;
-    background-color:#555;
+    border-color: #333;
+    background-color: #333;
     width: 50em;
     height: 4em;
     margin: 0 auto;
-    
 }
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -81,34 +81,36 @@ a:hover{
  * Header
  */
 .masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-    
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .masthead-nav > li {
   display: inline-block;
-    
 }
+
 .masthead-nav > li + li {
-  margin-left: 20px;
-    
+      margin-left: 10px;
 }
+
 .masthead-nav > li > a {
   padding-right: 1em;
   padding-left: 1em;
   font-size: 20px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color:lightgray;
+  color: #898787; /* IE8 proofing */
+  color: #898787;
   border-bottom: 2px solid transparent;
-    
+}
+
+.masthead-nav > .active > a:focus{
+    border-bottom: solid 2.9px #BB8600;  
 }
 /*colors in meny */
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-    color:white;
+    color: white;
 }
 
 .masthead-nav > .active > a:hover,
@@ -128,6 +130,9 @@ a:hover{
   .masthead-nav {
     float: center;
 	overflow: hidden;
+	width: 50em;
+	top: 0;
+	position: static;
   }
 }
 
@@ -200,13 +205,13 @@ h3{
 }
 
 .om_oss{
-    background-color: black;
+    background-color: #E2E2E2;
     position: relative;
     left: 0;
     height: 40em;
     width: 100%;
     padding: 1em;
-    margin: 18em 0em 0em ;
+    margin: 26em 0em 0em ;
 }
 
 .om_oss > h2{
@@ -219,6 +224,7 @@ h3{
     font-size: 22px;
     width: 50em;
     margin: 2em auto;
+	text-align: left;
 }
 
 .marken{
@@ -244,7 +250,7 @@ h3{
 }
 
 .kontakt{
-	background-color: black;
+	background-color: #E2E2E2;
 	left: 0;
 	min-width: 100%;
 	max-width: 100%;
@@ -254,8 +260,10 @@ h3{
 }
 
 .kontakt_content{
+	margin: 0 auto;
 	display: inline-block;
-	width: 97%;
+	width: 80em;
+	max-width: 100%;
 }
 
 .method{
@@ -267,14 +275,15 @@ h3{
 }
 
 .info{
-    width: 24%;
-	margin: 1.5em;
+    width: 20%;
+	margin: 1em 2.5em;
 	display: inline-block;
 }
 
 .info:hover{
     color: white;
     cursor: default;
+	transition: color .3s ease;
 }
 
 
