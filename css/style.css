@@ -221,14 +221,14 @@ h3{
     left: 0;
     height: 90em;
     width: 100%;
-<<<<<<< HEAD
+
     padding: 1em;
     background-color: white;
     
     
-=======
+
     padding: 1em;    
->>>>>>> origin/master
+
 }
 
 .marken > h2{
@@ -236,16 +236,16 @@ h3{
     margin: 0.3em auto;
     border-bottom: solid 3px #BB8600;
     text-align: center;
-<<<<<<< HEAD
+
     padding: 1em 0em 0em 0em;
     margin-bottom: 2em;
 }
 
 .marken > p{
     text-align: left;
-=======
+
 	padding-bottom: 0.2em;
->>>>>>> origin/master
+
 }
 
 .kontakt{
