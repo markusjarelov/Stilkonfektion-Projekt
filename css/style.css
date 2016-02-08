@@ -28,29 +28,29 @@ video#bgvid {
 }
 
 /* Links */
-a,
-a:focus,
-a:hover{
-  color: #fff;
+a{
+	font-family: 'Pragati Narrow', sans-serif;
+}
     
 }
 /*logga */
-.image {
-    text-align: center;
-    margin-top: 15em;
-    
+.logotype{
+	position: relative;
+	width: 50%;
+    margin-top: 10em;
+	padding: 10em;
 }
 
 /*låda  */
-.nav  {
+.nav{
     border-style: solid;
-    border-color: #555;
-    background-color:#555;
+    border-color: #333;
+    background-color: #333;
     width: 50em;
     height: 4em;
     margin: 0 auto;
-    
 }
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -68,47 +68,42 @@ a:hover{
 
 .cover {
   margin-top: 14em;
-    
-    
 }
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
 
 /*
  * Header
  */
 .masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-    
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .masthead-nav > li {
   display: inline-block;
-    
 }
+
 .masthead-nav > li + li {
-  margin-left: 20px;
-    
+      margin-left: 10px;
 }
+
 .masthead-nav > li > a {
   padding-right: 1em;
   padding-left: 1em;
   font-size: 20px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color:lightgray;
+  color: #898787; /* IE8 proofing */
+  color: #898787;
   border-bottom: 2px solid transparent;
-    
+}
+
+.masthead-nav > .active > a:focus{
+    border-bottom: solid 2.9px #BB8600;  
 }
 /*colors in meny */
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-    color:white;
+    color: white;
 }
 
 .masthead-nav > .active > a:hover,
@@ -126,8 +121,11 @@ a:hover{
     float: center;
   }
   .masthead-nav {
-    float: center;
 	overflow: hidden;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 2;
   }
 }
 
@@ -142,11 +140,10 @@ body {
     overflow-x: hidden;
 }
 
-body {
-  
+body { 
   text-align: center;
   text-shadow: 0 0px 0px rgba(0,0,0,.5);
-    font-family: 'Pragati Narrow', sans-serif;
+  font-family: 'Pragati Narrow', sans-serif;
     
 }
 
@@ -169,16 +166,12 @@ body {
 
 
 /* Padding for spacing */
-.inner {
 
-  margin-top: 4em;
-  padding: 0.5em;
-
-}
 .lead {
     margin-top: -10%;
     font-size: 30px;
     color: #BB8600;
+	position: relative;
 }
 
 
@@ -200,13 +193,13 @@ h3{
 }
 
 .om_oss{
-    background-color: black;
+    background-color: #E2E2E2;
     position: relative;
     left: 0;
     height: 40em;
     width: 100%;
     padding: 1em;
-    margin: 18em 0em 0em ;
+    margin: 26em 0em 0em ;
 }
 
 .om_oss > h2{
@@ -219,6 +212,7 @@ h3{
     font-size: 22px;
     width: 50em;
     margin: 2em auto;
+	text-align: left;
 }
 
 .marken{
@@ -227,10 +221,14 @@ h3{
     left: 0;
     height: 90em;
     width: 100%;
+<<<<<<< HEAD
     padding: 1em;
     background-color: white;
     
     
+=======
+    padding: 1em;    
+>>>>>>> origin/master
 }
 
 .marken > h2{
@@ -238,16 +236,20 @@ h3{
     margin: 0.3em auto;
     border-bottom: solid 3px #BB8600;
     text-align: center;
+<<<<<<< HEAD
     padding: 1em 0em 0em 0em;
     margin-bottom: 2em;
 }
 
 .marken > p{
     text-align: left;
+=======
+	padding-bottom: 0.2em;
+>>>>>>> origin/master
 }
 
 .kontakt{
-	background-color: black;
+	background-color: #E2E2E2;
 	left: 0;
 	min-width: 100%;
 	max-width: 100%;
@@ -257,8 +259,10 @@ h3{
 }
 
 .kontakt_content{
+	margin: 0 auto;
 	display: inline-block;
-	width: 97%;
+	width: 80em;
+	max-width: 100%;
 }
 
 .method{
@@ -270,14 +274,15 @@ h3{
 }
 
 .info{
-    width: 24%;
-	margin: 1.5em;
+    width: 20%;
+	margin: 1em 2.5em;
 	display: inline-block;
 }
 
 .info:hover{
-    color: white;
+    color: #333;
     cursor: default;
+	transition: color .3s ease;
 }
 
 
