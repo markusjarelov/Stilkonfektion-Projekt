@@ -15,6 +15,8 @@
     
      <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/hover.css">
+           
+    
 </head>
 
 <body class="box fade-in one" >
@@ -35,8 +37,8 @@
                 <ul class="nav masthead-nav box fade-in three">
                   <li class="active"><a href="#" class="hvr-slide-in-out">Hem</a></li>
                   <li class="active"><a href="#om_oss" class="hvr-slide-in-out">Om Företaget</a></li>
-                  <li class="active"><a href="#" class="hvr-slide-in-out">Våra Märken</a></li>
-                  <li class="active"><a href="#" class="hvr-slide-in-out">Kontakta Oss</a></li>
+                  <li class="active"><a href="#marken" class="hvr-slide-in-out">Våra Märken</a></li>
+                  <li class="active"><a href="#kontakt" class="hvr-slide-in-out">Kontakta Oss</a></li>
                   <li class="active"><a href="#" class="hvr-slide-in-out">Hitta hit!</a></li>
                 </ul>
               </nav>
@@ -59,71 +61,85 @@
       </div>
       
       
-      <div class="marken fade-in four">
+      <div class="marken fade-in four" id="marken">
           <h2>Våra Märken</h2>
           
     
 
               <ul class="rig columns-3">
-	<li>
+	<a href="www.2-biz.dk"><li>
 		<img src="images/2biz.png" />
 		<h3>Image Title</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        </li></a>
+                  
+	<a href="www.macmode.de"><li>
 	</li>
-	<li>
+	<li> 
 		<img src="images/mac.png" />
 		<h3>Image Title</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-	</li>
-	<li>
+        </li></a>
+                  
+	<a href="http://www.beaumontorganic.com/"><li>
 		<img src="images/beamount.png" />
 		<h3>Image Title</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-	</li>
-	<li>
+        </li> </a>
+                  
+	<a href="www.gerryweber.com"><li>
 		<img src="images/gw.png" />
 		<h3>Image Title</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-	</li>
-	<li>
+        </li> </a>
+                  
+	<a href="www.creenstone.nl"><li>
 		<img src="images/creenstone.png" />
 		<h3>Image Title</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
 	</li>
-	<li>
+                  </a>
+	<a href="www.damella.se"><li>
 		<img src="images/damella.png" />
 		<h3>Image Title</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
 	</li>
-                  <li>
+        </a>
+                 <a href="www.signature.dk"> <li>
 		<img src="images/signature.png" />
 		<h3>Image Title</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-	</li>
-                  <li>
+                     </li></a>
+                  
+              <a href="www.laurie.dk"> <li>
 		<img src="images/laurie.png" />
 		<h3>Image Title</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-	</li>
-                  <li>
+                  </li></a>
+                  
+               <a href="www.wearhouse.dk"><li>
 		<img src="images/wearhouse.png" />
 		<h3>Image Title</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-	</li><li>
+                   </li></a>
+                  
+            <a href="www.micha.dk"> <li>
 		<img src="images/micha.png" />
 		<h3>Image Title</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-	</li>
-                  <li>
+                </li></a>
+                  
+                <a href="www.lottadesign.se"> <li>
 		<img src="images/lotta.png" />
 		<h3>Image Title</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-	</li>
-                  <li>
+                    </li></a>
+                  
+                 <a href="www.lebeck.dk"> <li>
 		<img src="images/lebek.png" />
 		<h3>Image Title</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-	</li>
+                     </li></a>
 </ul>
               
               
@@ -137,17 +153,25 @@
            </div>
        
             
-		<div class="kontakt">
+		<div class="kontakt" id="kontakt">
          <div class="kontakt_content">
       	     <h2>Kontakta Oss</h2>
              <h3 class="method">Via Telefon</h3>
 	   	     <h3 class="method">Via Epost</h3>
              <h3 class="method">Eller kom hit!</h3>
              <h3 class="info">0303-63500</h3>
-             <h3 class="info">stilkonfektion@telia.com</h3>
-             <h3 class="info">Strandgatan 77 <br> 44231 Kungälv</h3>
+             <h3 class="info"><a href="mailto:stilkonfektion@telia.com">stilkonfektion@telia.com</a></h3>
+             <h3 class="info"><a href="#overlay">Strandgatan 77 <br> 44231 Kungälv</a></h3>
           </div>     
-       </div>  
+       </div> 
+            
+            
+  <div id="overlay" class="map" onClick="style.pointerEvents='none'">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2121.9405556746756!2d11.978093915543653!3d57.8702142341809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464560975f870263%3A0xf902af58648f5310!2sStrandgatan+77%2C+442+31+Kung%C3%A4lv!5e0!3m2!1ssv!2sse!4v1455004826839" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                
+
+            
 
           </div>
 	  </div>

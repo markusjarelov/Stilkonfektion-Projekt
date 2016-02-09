@@ -28,6 +28,7 @@ video#bgvid {
 /* Links */
 a{
 	font-family: 'Pragati Narrow', sans-serif;
+    
 }
 
 /* Logga */
@@ -205,7 +206,7 @@ h3{
 	left: 0;
 	min-width: 100%;
 	max-width: 100%;
-	height: 40em;
+	height: 30em;
 	padding-top: 5em;
 	overflow: hidden;
 }
@@ -235,6 +236,15 @@ h3{
     color: black;
     cursor: default;
 	transition: color .3s ease;
+}
+
+#overlay {
+   background: transparent; 
+   position: relative; 
+   width: 100%;
+   height: 450px; /* your iframe height */
+   top: 450px;  /* your iframe height */
+   margin-top: -450px;  /* your iframe height */
 }
 
 /* make keyframes that tell the start state and the end state of our object */
@@ -329,9 +339,6 @@ a{
 .linktext{
 margin-bottom: -2em;
    
-}
-a:hover {
-    text-decoration: none;
 }
 
 ul.rig {
