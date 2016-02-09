@@ -149,6 +149,12 @@ body {
   vertical-align: top;
 }
 
+.icon {
+    width: 1em;
+    height: 1em;
+
+}
+
 
 /* Padding for spacing */
 
