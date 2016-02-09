@@ -101,7 +101,8 @@ a{
 
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus{
-  color: white;
+  color: lightgrey;
+    -webkit-filter: brightness(1.5); filter: brightness(1.5);
 }
 
 .masthead-nav > .active >a {
