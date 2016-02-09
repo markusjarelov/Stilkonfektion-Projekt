@@ -30,6 +30,7 @@ video#bgvid {
 /* Links */
 a{
 	font-family: 'Pragati Narrow', sans-serif;
+    
 }
 
 /* Logga */
@@ -237,7 +238,7 @@ h3{
 	left: 0;
 	min-width: 100%;
 	max-width: 100%;
-	height: 40em;
+	height: 30em;
 	padding-top: 5em;
 	overflow: hidden;
 }
@@ -247,6 +248,12 @@ h3{
 	display: inline-block;
 	width: 80em;
 	max-width: 100%;
+}
+
+.kontakt_content > h3, a {
+    text-decoration: underline;
+    color: grey;
+    
 }
 
 .method{
@@ -267,6 +274,15 @@ h3{
     color: #333;
     cursor: default;
 	transition: color .3s ease;
+}
+
+#overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:450px; /* your iframe height */
+   top:450px;  /* your iframe height */
+   margin-top:-450px;  /* your iframe height */
 }
 
 
