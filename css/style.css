@@ -1,21 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Pragati+Narrow);
 
-video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover; 
-}
+
 
 /*
  * Globals
@@ -28,12 +13,14 @@ video#bgvid {
 /* Links */
 a{
 	font-family: 'Pragati Narrow', sans-serif;
-    color: grey;
-    
-}
-a:hover {
-   text-decoration: underline;
     color: #333;
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+	text-decoration: none;
+	transition: color .3s ease;
 }
 
 /* Logga */
@@ -54,6 +41,11 @@ a:hover {
 	position: relative;
 	margin-bottom: 10em;
 	z-index: 2;
+}
+
+.icon{
+	width: 1em;
+	height: 1em;
 }
 
 /*
@@ -120,7 +112,7 @@ body {
   text-align: center;
   text-shadow: 0 0px 0px rgba(0,0,0,.5);
   font-family: 'Pragati Narrow', sans-serif;
-  background-color: #E2E2E2;
+  background: url(../images/img2.png);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -165,9 +157,9 @@ h3{
     background: linear-gradient(#fff, #E0E0E0);
     position: relative;
     left: 0;
-    height: 40em;
+    height: 45em;
     width: 100%;
-    padding: 1em;
+    padding-top: 1em;
     margin: 22% 0em 0em ;
 }
 
@@ -191,7 +183,8 @@ h3{
     position: relative;
     left: 0;
     width: 100%;
-    padding: 1em;    
+    padding: 1em;
+	align-content: center;
 }
 
 .marken > h2{
@@ -213,7 +206,7 @@ h3{
 	left: 0;
 	min-width: 100%;
 	max-width: 100%;
-	height: 30em;
+	height: 35em;
 	padding-top: 5em;
 	overflow: hidden;
 }
@@ -252,6 +245,7 @@ h3{
     color: black;
     cursor: default;
 	transition: color .3s ease;
+	text-decoration: none;
 }
 
 #overlay {
@@ -309,9 +303,6 @@ animation-delay: 0.9s;
 animation-delay: 1.2s;
 }
 
-a{
-    text-decoration: none;
-}
 1
 2
 3
@@ -365,7 +356,7 @@ ul.rig {
 ul.rig li {
 	display: inline-block;
 	padding: 10px;
-	margin: 0 0 2.5% 2.5%;
+	margin: 0 0 0% 0%;
 	background: #fff;
 	border: 1px solid #ddd;
 	font-size: 16px;
@@ -375,6 +366,7 @@ ul.rig li {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+	overflow: hidden;
 }
 ul.rig li img {
 	max-width: 100%;
