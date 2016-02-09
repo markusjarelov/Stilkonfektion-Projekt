@@ -30,7 +30,12 @@ video#bgvid {
 /* Links */
 a{
 	font-family: 'Pragati Narrow', sans-serif;
+    color: grey;
     
+}
+a:hover {
+   text-decoration: underline;
+    color: #333;
 }
 
 /* Logga */
@@ -257,7 +262,7 @@ h3{
 	max-width: 100%;
 }
 
-.kontakt_content > h3, a {
+.kontakt_content > a {
     text-decoration: underline;
     color: grey;
     
