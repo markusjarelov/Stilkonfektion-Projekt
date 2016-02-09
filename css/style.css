@@ -31,14 +31,13 @@ video#bgvid {
 a{
 	font-family: 'Pragati Narrow', sans-serif;
 }
-    
-}
+
 /* Logga */
 .logotype{
-	position: absolute;
-	width: 50%;
-    margin-top: 10em;
-	padding: 10em;
+	position: relative;
+	margin-top: 20em;
+	margin: 0 auto;
+	width: 70%;
 }
 
 /* Meny */
@@ -48,7 +47,9 @@ a{
     background-color: #333;
     width: 100%;
     height: 4em;
-    margin: 0 auto;
+	position: relative;
+	margin-bottom: 15em;
+	z-index: 2;
 }
 
 /* Custom default button */
@@ -60,14 +61,6 @@ a{
   background-color: #fff;
     border-radius: 0;
   
-}
-
-/*
- * Cover
- */
-
-.cover {
-  margin-top: 14em;
 }
 
 /*
@@ -91,8 +84,7 @@ a{
   padding-left: 1em;
   font-size: 20px;
   font-weight: bold;
-  color: #898787; /* IE8 proofing */
-  color: #898787;
+  color: #9D9C9C; /* IE8 proofing */
   border-bottom: 2px solid transparent;
 }
 
@@ -113,6 +105,7 @@ a{
 
 .masthead-nav > .active >a {
     position: static;
+	color: #9D9C9C;
 }
 
 /* change meny position */
@@ -148,10 +141,8 @@ body {
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 00px rgba(0,0,0,.5);
           box-shadow: inset 0 0 00px rgba(0,0,0,.5);
-    
-    
-    
-}
+ }
+
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
@@ -161,7 +152,7 @@ body {
 /* Padding for spacing */
 
 .lead {
-    margin-top: -10%;
+    margin-top: 10%;
     font-size: 30px;
     color: #BB8600;
 	position: relative;
@@ -192,7 +183,7 @@ h3{
     height: 40em;
     width: 100%;
     padding: 1em;
-    margin: 26em 0em 0em ;
+    margin: 11em 0em 0em ;
 }
 
 .om_oss > h2{
@@ -285,35 +276,8 @@ h3{
 
 body {
   padding-bottom: 40px;
-  color: #5a5a5a;
+  color: #9D9C9C;
 }
-
-
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-  
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-}
-
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
-
 
 /* make keyframes that tell the start state and the end state of our object */
 
