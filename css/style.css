@@ -28,7 +28,12 @@ video#bgvid {
 /* Links */
 a{
 	font-family: 'Pragati Narrow', sans-serif;
+    color: grey;
     
+}
+a:hover {
+   text-decoration: underline;
+    color: #333;
 }
 
 /* Logga */
@@ -84,7 +89,8 @@ a{
 
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus{
-  color: white;
+  color: lightgrey;
+    -webkit-filter: brightness(1.5); filter: brightness(1.5);
 }
 
 .masthead-nav > .active >a {
@@ -131,6 +137,7 @@ body {
     display: table-cell;
     vertical-align: top;
 }
+
 
 /* Padding for spacing */
 
@@ -218,6 +225,15 @@ h3{
 	max-width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.kontakt_content > a {
+    text-decoration: underline;
+    color: grey;
+    
+}
+
+>>>>>>> origin/master
 .method{
     font-size: 30px;
 	width: 20%;
