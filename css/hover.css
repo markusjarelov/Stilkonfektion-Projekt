@@ -3471,7 +3471,7 @@
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  padding-right: 2.2em;
+  
 }
 .hvr-icon-drop:before {
   content: "\f041";
