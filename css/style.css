@@ -29,6 +29,7 @@ a:hover{
 	margin-top: 15em;
 	margin: 0 auto;
 	width: 70%;
+	padding-top: 10em;
 }
 
 /* Meny */
@@ -38,12 +39,14 @@ a:hover{
     background-color: #333;
     width: 100%;
     height: 4em;
-	position: relative;
+	position: fixed;
 	margin-bottom: 10em;
 	z-index: 2;
 }
 
 .icon{
+	position: relative;
+	padding: 0em em;
 	width: 1em;
 	height: 1em;
 }
@@ -69,7 +72,7 @@ a:hover{
   border-bottom: 2px solid transparent;
 }
 
-.masthead-nav > .active > a:focus{
+.masthead-nav > li > a:focus{
     border-bottom: solid 2.9px #BB8600;  
 }
 /*colors in meny */
@@ -209,6 +212,7 @@ h3{
 	height: 35em;
 	padding-top: 5em;
 	overflow: hidden;
+	border-bottom: solid 5px #BB8600;
 }
 
 .kontakt_content{
@@ -230,6 +234,7 @@ h3{
     width: 20%;
 	margin: 1em 2.6em;
 	display: inline-block;
+	line-height: 1.4em
 }
 
 .info:hover{
@@ -306,38 +311,6 @@ animation-delay: 1.2s;
 10
 11
 12
-/*BLUR*/
-
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.blur {
-    
-}
-.blur img {
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-    display: inline-block;
-
- 
-}
-
-.blur img:hover {
-  -webkit-filter: blur(3px);
-    z-index: -30;
-    
-}
-
-.linktext{
-margin-bottom: -2em;
-   
-}
 
 ul.rig {
 	list-style: none;
