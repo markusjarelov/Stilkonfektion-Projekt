@@ -262,7 +262,7 @@ h3{
 	max-width: 100%;
 }
 
-.kontakt_content > a {
+.kontakt_content > a:hover {
     text-decoration: underline;
     color: grey;
     
