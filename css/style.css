@@ -1,22 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Pragati+Narrow);
 
-video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover; 
-}
-
 
 
 /*
@@ -25,98 +8,87 @@ video#bgvid {
 
 
 
-
 /* Links */
-a,
-a:focus,
+a{
+	font-family: 'Pragati Narrow', sans-serif;
+    color: #333;
+	text-decoration: none;
+	overflow: hidden;
+}
+
 a:hover{
-  color: #fff;
-    
-}
-/*logga */
-.image {
-    text-align: center;
-    margin-top: 15em;
-    
+	color: black;
+	text-decoration: none;
+	transition: color .3s ease;
 }
 
-/*låda  */
-.nav  {
+/* Logga */
+.logotype{
+	position: relative;
+	margin: 0em auto;
+	width: 70%;
+	padding-top: 25em;
+}
+
+/* Meny */
+.nav{
     border-style: solid;
-    border-color: #555;
-    background-color:#555;
-    width: 50em;
+    border-color: #333;
+    background-color: #333;
+    width: 100%;
     height: 4em;
-    margin: 0 auto;
-    
-}
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-    border-radius: 0;
-  
+	position: fixed;
+	margin-bottom: 10em;
+	z-index: 2;
 }
 
-/*
- * Cover
- */
-
-.cover {
-  margin-top: 14em;
-    
-    
+.icon{
+	position: relative;
+	width: 1em;
+	height: 1em;
 }
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
 
 /*
  * Header
  */
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-    
-}
-
 .masthead-nav > li {
   display: inline-block;
-    
 }
+
 .masthead-nav > li + li {
-  margin-left: 20px;
-    
+      margin-left: 10px;
 }
+
 .masthead-nav > li > a {
   padding-right: 1em;
   padding-left: 1em;
   font-size: 20px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color:lightgray;
+  color: #9D9C9C; /* IE8 proofing */
+  color: #9D9C9C;
   border-bottom: 2px solid transparent;
-    
+}
+
+.masthead-nav > .active > a:focus{
+    border-bottom: solid 2.9px #BB8600;  
 }
 /*colors in meny */
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-    color:white;
+    color: white;
 }
 
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus{
-  color: white;
+  color: lightgrey;
+    -webkit-filter: brightness(1.5); 
+	filter: brightness(1.5);
 }
 
 .masthead-nav > .active >a {
     position: static;
+	color: #9D9C9C;
 }
 
 /* change meny position */
@@ -124,10 +96,7 @@ a:hover{
   .masthead-brand {
     float: center;
   }
-  .masthead-nav {
-    float: center;
-  }
-}
+ }
 
 /*
  * Base structure
@@ -136,20 +105,15 @@ a:hover{
 html,
 body {
   height: 100%;
-    background-color: lightgrey;
-    
-    overflow-x:hidden;
-    
-
-  
-   
+    background-color: white;
+    overflow-x: hidden;
 }
-body {
-  
+
+body { 
   text-align: center;
   text-shadow: 0 0px 0px rgba(0,0,0,.5);
-    font-family: 'Pragati Narrow', sans-serif;
-    
+  font-family: 'Pragati Narrow', sans-serif;
+  background: url(../images/blur.jpg) 99% no-repeat;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -160,33 +124,22 @@ body {
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 00px rgba(0,0,0,.5);
           box-shadow: inset 0 0 00px rgba(0,0,0,.5);
-    
-    
-    
-}
+ }
+
 .site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
+    display: table-cell;
+    vertical-align: top;
 }
 
 
 /* Padding for spacing */
-.inner {
 
-  margin-top: 4em;
-  padding: 0.5em;
-
-}
 .lead {
-    margin-top: -10%;
+	margin: 0 auto;
     font-size: 30px;
-    color: #BB8600;
-}
-
-
-
-h1{
-    font-size: 100px;
+    color: #DB9D00;
+	width: 70%;
+	position: relative;
 }
 
 h2{
@@ -202,115 +155,97 @@ h3{
 }
 
 .om_oss{
-    background-color: black;
+    background: linear-gradient(#fff, #E0E0E0);
     position: relative;
     left: 0;
-    height: 40em;
+    height: 45em;
     width: 100%;
-    padding: 1em;
-    margin: 18em 0em 0em ;
+    padding-top: 1em;
+    margin: 22% 0em 0em ;
 }
 
 .om_oss > h2{
     width: 15em;
     margin: 2em auto;
-    border-bottom: solid 3px #BB8600;
+    border-bottom: solid 3px #DB9D00;
 }
 
 .om_oss > p{
+	color: 333;
     font-size: 22px;
     width: 50em;
     margin: 2em auto;
+	text-align: left;
 }
 
 .marken{
-    margin-top: 31em;
+	background: linear-gradient(#E0E0E0, #D6D6D6);
+    margin-top: 0em;
     position: relative;
     left: 0;
-    height: 60em;
     width: 100%;
     padding: 1em;
-    
+	align-content: center;
+	overflow: hidden;
 }
 
 .marken > h2{
     width: 8em;
     margin: 0.3em auto;
-    border-bottom: solid 3px #BB8600;
+    border-bottom: solid 3px #DB9D00;
+    text-align: center;
+    padding: 1em 0em 0em 0em;
+    margin-bottom: 2em;
 }
 
 .kontakt{
-    background-color: black;
-    position: relative;
-    left: 0;
-    height: 40em;
-    width: 100%;
-    padding: 1em;
+	background: linear-gradient(#D6D6D6, #AFAFAF);
+	left: 0;
+	min-width: 100%;
+	max-width: 100%;
+	height: 35em;
+	padding-top: 5em;
+	border-bottom: solid 5px #DB9D00;
 }
 
 .kontakt_content{
-    width: 97%
-}
-
-.kontakt > h2{
-    width: 8em;
-    margin: 0.3em auto;
-    border-bottom: solid 3px #BB8600;
+	margin: 0 auto;
+	display: inline-block;
+	width: 90em;
+	max-width: 100%;
+	overflow: hidden;
 }
 
 .method{
     font-size: 30px;
-    width: 10em;
-    margin: 2em 5em 0em 5em;
-    border-bottom: solid 0.5px #BB8600;
-    text-align: center;
+	width: 20%;
+    margin: 1em 2em;
+    border-bottom: solid 0.5px #DB9D00;
+	display: inline-block;
 }
 
 .info{
-    width: 25em;
+    width: 20%;
+	margin: 0.3em 2.6em;
+	display: inline-block;
+	line-height: 1.4em
 }
 
 .info:hover{
-    color: white;
+    color: black;
     cursor: default;
+	transition: color .3s ease;
+	text-decoration: none;
 }
 
-
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
+#overlay {
+   background: transparent; 
+   position: relative; 
+   width: 100%;
+   height: 450px; /* your iframe height */
+   top: 450px;  /* your iframe height */
+   margin-top: -450px;  /* your iframe height */
 }
-
-
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-  
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-}
-
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
-
 
 /* make keyframes that tell the start state and the end state of our object */
 
@@ -358,9 +293,6 @@ animation-delay: 0.9s;
 animation-delay: 1.2s;
 }
 
-a{
-    text-decoration: none;
-}
 1
 2
 3
@@ -373,34 +305,75 @@ a{
 10
 11
 12
-/*BLUR*/
 
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-          box-sizing: border-box;
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
 }
-.blur img {
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-    display: inline-block;
-    
+
+ul.rig li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 0% 0%;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 2rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: hidden;
+}
+
+ul.rig li img {
+	max-width: 100%;
+	height:auto;
+	margin: 0 0 10px;
+}
+
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+
+ul.rig li p {
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #999;
+	width: 83%;
+	margin: 0 auto;
+}
+
+/* class for 2 columns */
+ul.rig.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+}
+
+/* class for 3 columns */
+ul.rig.columns-3 li {
+	width: 30.5%; /* this value + 2.5 should = 33% */
+}
+
+/* class for 4 columns */
+ul.rig.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+}
  
-}
-
-.blur img:hover {
-  -webkit-filter: blur(3px);
-    z-index: -30;
-}
-
-.linktext{
-margin-bottom: -2em;
-   
-}
-a:hover {
-    text-decoration: none;
+@media (max-width: 480px) {
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.rig {
+		margin-left: 0;
+	}
+	ul.rig li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
 }
