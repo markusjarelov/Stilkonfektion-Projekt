@@ -6,15 +6,14 @@
  * Globals
  */
 
-* - body{
-	overflow: hidden;
-}
+
 
 /* Links */
 a{
 	font-family: 'Pragati Narrow', sans-serif;
     color: #333;
 	text-decoration: none;
+	overflow: hidden;
 }
 
 a:hover{
@@ -26,7 +25,7 @@ a:hover{
 /* Logga */
 .logotype{
 	position: relative;
-	margin: 0 auto;
+	margin: 0em auto;
 	width: 70%;
 	padding-top: 25em;
 }
@@ -83,7 +82,8 @@ a:hover{
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus{
   color: lightgrey;
-    -webkit-filter: brightness(1.5); filter: brightness(1.5);
+    -webkit-filter: brightness(1.5); 
+	filter: brightness(1.5);
 }
 
 .masthead-nav > .active >a {
@@ -129,7 +129,6 @@ body {
 .site-wrapper-inner {
     display: table-cell;
     vertical-align: top;
-	overflow: hidden;
 }
 
 
@@ -206,7 +205,6 @@ h3{
 	max-width: 100%;
 	height: 35em;
 	padding-top: 5em;
-	overflow: hidden;
 	border-bottom: solid 5px #DB9D00;
 }
 
@@ -313,6 +311,7 @@ ul.rig {
 	font-size: 0px;
 	margin-left: -2.5%; /* should match li left margin */
 }
+
 ul.rig li {
 	display: inline-block;
 	padding: 10px;
@@ -328,27 +327,33 @@ ul.rig li {
 	-webkit-box-sizing: border-box;
 	overflow: hidden;
 }
+
 ul.rig li img {
 	max-width: 100%;
 	height:auto;
 	margin: 0 0 10px;
 }
+
 ul.rig li h3 {
 	margin: 0 0 5px;
 }
+
 ul.rig li p {
 	font-size: .9em;
 	line-height: 1.5em;
 	color: #999;
 }
+
 /* class for 2 columns */
 ul.rig.columns-2 li {
 	width: 47.5%; /* this value + 2.5 should = 50% */
 }
+
 /* class for 3 columns */
 ul.rig.columns-3 li {
 	width: 30.5%; /* this value + 2.5 should = 33% */
 }
+
 /* class for 4 columns */
 ul.rig.columns-4 li {
 	width: 22.5%; /* this value + 2.5 should = 25% */
