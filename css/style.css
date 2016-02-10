@@ -114,7 +114,7 @@ body {
   text-align: center;
   text-shadow: 0 0px 0px rgba(0,0,0,.5);
   font-family: 'Pragati Narrow', sans-serif;
-  background: url(../images/blur.jpg);
+  background: url(../images/blur.jpg)99%;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
