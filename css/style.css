@@ -226,16 +226,9 @@ h3{
 	display: inline-block;
 }
 
-.info_block{
-	align-content: center;
-	height: 50%;
-	float: top;
-	position: relative;
-}
-
 .info{
     width: 20%;
-	margin: 1em 2.6em;
+	margin: 0.3em 2.6em;
 	display: inline-block;
 	line-height: 1.4em
 }
