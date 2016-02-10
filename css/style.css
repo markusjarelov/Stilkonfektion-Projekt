@@ -29,7 +29,7 @@ a:hover{
 	margin-top: 15em;
 	margin: 0 auto;
 	width: 70%;
-	padding-top: 10em;
+	padding-top: 15em;
 }
 
 /* Meny */
@@ -46,7 +46,6 @@ a:hover{
 
 .icon{
 	position: relative;
-	padding: 0em em;
 	width: 1em;
 	height: 1em;
 }
@@ -72,7 +71,7 @@ a:hover{
   border-bottom: 2px solid transparent;
 }
 
-.masthead-nav > li > a:focus{
+.masthead-nav > .active > a:focus{
     border-bottom: solid 2.9px #BB8600;  
 }
 /*colors in meny */
@@ -188,6 +187,7 @@ h3{
     width: 100%;
     padding: 1em;
 	align-content: center;
+	overflow: hidden;
 }
 
 .marken > h2{
@@ -199,13 +199,8 @@ h3{
     margin-bottom: 2em;
 }
 
-.marken > p{
-    text-align: left;
-	padding-bottom: 0.2em;
-}
-
 .kontakt{
-	background: linear-gradient(#D6D6D6, #9F9F9F);
+	background: linear-gradient(#D6D6D6, #AFAFAF);
 	left: 0;
 	min-width: 100%;
 	max-width: 100%;
@@ -220,6 +215,7 @@ h3{
 	display: inline-block;
 	width: 90em;
 	max-width: 100%;
+	overflow: hidden;
 }
 
 .method{
@@ -228,6 +224,13 @@ h3{
     margin: 1em 2em;
     border-bottom: solid 0.5px #BB8600;
 	display: inline-block;
+}
+
+.info_block{
+	align-content: center;
+	height: 50%;
+	float: top;
+	position: relative;
 }
 
 .info{
