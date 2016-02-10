@@ -26,10 +26,9 @@ a:hover{
 /* Logga */
 .logotype{
 	position: relative;
-	margin-top: 15em;
 	margin: 0 auto;
 	width: 70%;
-	padding-top: 15em;
+	padding-top: 25em;
 }
 
 /* Meny */
@@ -114,7 +113,7 @@ body {
   text-align: center;
   text-shadow: 0 0px 0px rgba(0,0,0,.5);
   font-family: 'Pragati Narrow', sans-serif;
-  background: url(../images/blur.jpg)99%;
+  background: url(../images/blur.jpg) 99% no-repeat;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -130,6 +129,7 @@ body {
 .site-wrapper-inner {
     display: table-cell;
     vertical-align: top;
+	overflow: hidden;
 }
 
 
@@ -138,7 +138,7 @@ body {
 .lead {
 	margin: 0 auto;
     font-size: 30px;
-    color: #BB8600;
+    color: #DB9D00;
 	width: 70%;
 	position: relative;
 }
@@ -168,7 +168,7 @@ h3{
 .om_oss > h2{
     width: 15em;
     margin: 2em auto;
-    border-bottom: solid 3px #BB8600;
+    border-bottom: solid 3px #DB9D00;
 }
 
 .om_oss > p{
@@ -193,7 +193,7 @@ h3{
 .marken > h2{
     width: 8em;
     margin: 0.3em auto;
-    border-bottom: solid 3px #BB8600;
+    border-bottom: solid 3px #DB9D00;
     text-align: center;
     padding: 1em 0em 0em 0em;
     margin-bottom: 2em;
@@ -207,7 +207,7 @@ h3{
 	height: 35em;
 	padding-top: 5em;
 	overflow: hidden;
-	border-bottom: solid 5px #BB8600;
+	border-bottom: solid 5px #DB9D00;
 }
 
 .kontakt_content{
@@ -222,20 +222,13 @@ h3{
     font-size: 30px;
 	width: 20%;
     margin: 1em 2em;
-    border-bottom: solid 0.5px #BB8600;
+    border-bottom: solid 0.5px #DB9D00;
 	display: inline-block;
-}
-
-.info_block{
-	align-content: center;
-	height: 50%;
-	float: top;
-	position: relative;
 }
 
 .info{
     width: 20%;
-	margin: 1em 2.6em;
+	margin: 0.3em 2.6em;
 	display: inline-block;
 	line-height: 1.4em
 }
