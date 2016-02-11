@@ -239,13 +239,9 @@ h3{
 	text-decoration: none;
 }
 
-#overlay {
-   background: transparent; 
-   position: relative; 
-   width: 100%;
-   height: 450px; /* your iframe height */
-   top: 450px;  /* your iframe height */
-   margin-top: -450px;  /* your iframe height */
+
+h4 {
+    margin-top: 5.4em;
 }
 
 /* make keyframes that tell the start state and the end state of our object */
