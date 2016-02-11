@@ -91,30 +91,19 @@ a:hover{
 	color: #9D9C9C;
 }
 
-/* change meny position */
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: center;
-  }
- }
-
 /*
  * Base structure
  */
 
-html,
-body {
+html {
     height: 100%;
-    background-color: white;
-	overflow-x: hidden;
-    
 }
 
 body { 
   text-align: center;
   text-shadow: 0 0px 0px rgba(0,0,0,.5);
   font-family: 'Pragati Narrow', sans-serif;
-  background: url(../images/blur.jpg) 99% no-repeat;
+  background: url(../images/blur.jpg) 99% repeat;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
